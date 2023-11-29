@@ -1,0 +1,39 @@
+.switch-box {
+    position: relative;
+    box-sizing: border-box;
+    width: 64px;
+    height: 32px;
+    overflow: hidden;
+    border-radius: 32px;
+    background-color: #FF9C7D;
+    margin: 4px 4px 4px 4px;
+    padding-left: 4px;
+}
+.switch-handle {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    top: 50%;
+    transform: translate(0, -50%);
+    transition: all .3s;
+}
+.switch-content {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding-right: 10px;
+}
+.switch-on, .switch-off {
+    font-size: 14px;
+    transition: all .3s;
+}
+.switch-on {
+    transform: translate(-30px, 0);
+}

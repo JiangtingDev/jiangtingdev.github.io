@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <title>将庭服服务器状态</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="/assets/styles/switch.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0e0e0;
+        }
+        p {
+            padding: 18px 0 18px 0;
+            font-size: 20px;
+            color: #003333;
+        }
+        .status {
+            border-radius: 25px;
+            padding: 0 26px 0 26px;
+            box-shadow: 8px 8px 8px #0000004D,
+                -8px -8px 8px #FFFFFFB2;
+        }
+        .logo {
+            display: block;
+            margin: 0 auto;
+        }
+        .container {
+            height: 40px;
+            padding: 0 26px 0 26px;
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <img class="logo" alt="" src="/assets/images/logo.webp">
+    <div class="status">
+        <p id="data">
+            游玩地址：<br/>
+            游玩端口：<br/>
+            游戏版本：<br/>
+            在线人数：<br/>
+            数据时间：
+        </p>
+    </div>
+    <div class="container">
+        <p>自动刷新：</p>
+        <div class="switch-box" id="auto" onclick="onSwitch('auto')"><div class="switch-handle"></div><div class="switch-content"><span class="switch-on">开</span><span class="switch-off">关</span></div></div>
+    </div>
+    <script src="/assets/scripts/status.js"></script>
+</body>
+</html>
