@@ -20,15 +20,14 @@ function fetchData() {
     timeoutFetch(4000)("https://api.jiangting.top/status/?")
         .then(response => response.json())
         .then(data => {
-            document.getElementById("data").innerHTML = `游玩地址：mc.jiangting.top<br/>
-            游玩端口：19132<br/>
+            document.getElementById("data").innerHTML = `运行状态：${data.status}<br/>
+            游玩地址：${data.host}<br/>
+            游玩端口：${data.port}<br/>
             游戏版本：${data.version.name} (${data.version.protocal})<br/>
             在线人数：${data.players.online}/${data.players.max}<br/>
             数据时间：${data.time}`
         })
-        .catch(error => {
-            //console.error("Loding err:", error);
-        });
+        .catch(error => {});
 }
 
 function getTimeStr() {
