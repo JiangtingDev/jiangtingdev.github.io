@@ -13,7 +13,6 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="/assets/styles/loding.css">
-    <link rel="stylesheet" href="/assets/styles/switch.css">
     <link rel="stylesheet" href="/assets/styles/status.css">
 </head>
 <body>
@@ -21,28 +20,26 @@
         <div class="loader" style="margin-top: 20%;"></div>
         <p style="text-align: center;">加载中...</p>
     </div>
-    <div class="content">
     <img class="logo" alt="" src="/assets/images/logo.webp">
     <div class="status">
-        <p id="data">
-            运行状态：获取中...<br/>
-            游玩地址：<br/>
-            游玩端口：<br/>
-            游戏版本：<br/>
-            在线人数：<br/>
-            数据时间：
-        </p>
-    </div>
-    <div class="checkbox-wrapper-35">
-        <input value="private" name="switch" id="switch" type="checkbox" class="switch">
-        <label for="switch">
-            <span class="switch-x-text">自动刷新</span>
-            <span class="switch-x-toggletext">
-                <span class="switch-x-unchecked"><span class="switch-x-hiddenlabel">Unchecked: </span>关闭</span>
-                <span class="switch-x-checked"><span class="switch-x-hiddenlabel">Checked: </span>开启</span>
-            </span>
-        </label>
-    </div>
+        <div class="card-text">
+            <h2>Jiangting<br>Bedrock</h2>
+        </div>
+        <div class="card-data">
+            <img src="/assets/images/host.svg">
+            <h3>游玩地址</h3>
+            <p id="be-host">获取中...</p>
+        </div>
+        <div class="card-data">
+            <img src="/assets/images/version.svg">
+            <h3>游戏版本</h3>
+            <p id="be-version">获取中...</p>
+        </div>
+        <div class="card-data">
+            <img src="/assets/images/player.svg">
+            <h3>在线人数</h3>
+            <p id="be-players">获取中...</p>
+        </div>
     </div>
     <script>
         document.addEventListener("DOMContentLoaded", function() {

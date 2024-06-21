@@ -1,5 +1,3 @@
-const refreshSwitch = document.getElementById("switch")
-
 function timeoutFetch(timeOut = 1000) {
     return function (url, options) {
         return new Promise((resolve, reject) => {
@@ -17,23 +15,23 @@ function timeoutFetch(timeOut = 1000) {
 }
 
 function fetchData() {
-    timeoutFetch(4000)("https://api.jiangting.top/status/?")
+    timeoutFetch(5000)("https://api.jiangting.top/status/?")
         .then(response => response.json())
-        .then(data => {
-            document.getElementById("data").innerHTML = `运行状态：${data.status}<br/>
-            游玩地址：${data.host}<br/>
-            游玩端口：${data.port}<br/>
-            游戏版本：${data.version.name} (${data.version.protocal})<br/>
-            在线人数：${data.players.online}/${data.players.max}<br/>
-            数据时间：${data.time}`
-        })
-        .catch(error => {});
+        .then(data => update(data))
+        .catch(error => {update(false)});
 }
 
-function getTimeStr() {
-    const now = new Date()
-    return `${now.getFullYear()}.${now.getMonth().toString().padStart(2, "0")}.${now.getDate().toString().padStart(2, "0")} ${now.getHours().toString().padStart(2, "0")}:${now.getMinutes().toString().padStart(2, "0")}:${now.getSeconds().toString().padStart(2, "0")}`
+function update(data) {
+    if (!data) {
+        document.getElementById("be-host").innerHTML = "获取失败";
+        document.getElementById("be-version").innerHTML = "获取失败";
+        document.getElementById("be-players").innerHTML = "获取失败";
+    } else {
+        document.getElementById("be-host").innerHTML = `${data.host}<br>端口：${data.port}`;
+        document.getElementById("be-version").innerHTML = `${data.version.name}&nbsp(${data.version.protocal})<br/>`;
+        document.getElementById("be-players").innerHTML = `${data.players.online}/${data.players.max}`;
+    }
 }
 
-fetchData()
-setInterval(() => {if (refreshSwitch.checked) fetchData()}, 5000)
+fetchData();
+setInterval(() => {fetchData()}, 10000);
