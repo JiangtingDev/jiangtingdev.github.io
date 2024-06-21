@@ -22,19 +22,17 @@ body {
     margin: 26px 0;
     box-shadow: 8px 8px 8px #0000004D,
         -8px -8px 8px #FFFFFF99;
-    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
 }
 
 .card-text {
     height: 180px;
-    min-width: 260px;
+    width: 260px;
     border-radius: 18px;
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
     position: relative;
-    flex-direction: column;
 }
 
 .card-data {
@@ -47,7 +45,7 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    flex-direction: column;
+    transition: all 0.2s ease-out;
 }
 
 .card-data:hover {
@@ -83,30 +81,25 @@ body {
     font-weight: bold;
 }
 
-@media screen and (max-width: 650px) {
+@media (max-width: 1222px) and (min-width: 936px) {
+    .card-text {
+        margin: 0 70px;
+    }
+
+    .card-data {
+        margin: 0 70px;
+    }
+}
+
+@media (max-width: 650px) {
     .card-text {
         height: 100px;
-        min-width: 260px;
-        border-radius: 18px;
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        flex-direction: column;
+        width: 260px;
     }
 
     .card-data {
         height: 90px;
         width: 160px;
-        border-radius: 18px;
-        overflow: hidden;
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        flex-direction: column;
     }
 
     .card-data:hover {
@@ -115,7 +108,6 @@ body {
     }
  
     .card-text h2 {
-        font-family: baloo2;
         line-height: 50px;
         font-size: 40px;
     }
@@ -123,27 +115,23 @@ body {
     .card-data h3 {
         margin-top: 0px;
         font-size: 26px;
-        position: absolute;
     }
     
     .card-data img {
         width: 80px;
         height: 80px;
-        opacity: 0.1;
-        transform: rotate(340deg);
     }
     
     .card-data p {
         margin-top: 68px;
-        position: absolute;
         font-size: 18px;
-        color: #002211;
     }    
 }
 
 .logo {
     display: block;
     margin: 0 auto;
+    max-width: 95%;
 }
 
 .checkbox-wrapper-35 {

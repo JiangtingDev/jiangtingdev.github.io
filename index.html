@@ -21,7 +21,8 @@
         <p style="text-align: center;">加载中...</p>
     </div>
     <img class="logo" alt="" src="/assets/images/logo.webp">
-    <div class="status">
+
+    <div class="status" style="background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);">
         <div class="card-text">
             <h2>Jiangting<br>Bedrock</h2>
         </div>
@@ -41,14 +42,13 @@
             <p id="be-players">获取中...</p>
         </div>
     </div>
+
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             document.querySelector(".loading").style.display = "block";
-            document.querySelector(".content").style.display = "none";
         });
         window.addEventListener("load", function() {
             document.querySelector(".loading").style.display = "none";
-            document.querySelector(".content").style.display = "block";
         });
     </script>
     <script src="/assets/scripts/status.js"></script>
