@@ -18,7 +18,7 @@
 - 添加白名单功能，在群内发送验证码将游戏账号绑定QQ
 - 将玩家数据从名字储存方式更改并迁移为UUID储存方式（正版玩家改名后，延续旧名字数据而不是新建一个玩家数据）
 - 添加插件（4个）：DeluxeMenus-1.14.0-Release、LiteSignIn-1.8.1.4、Residence5.1.5.0、Jiangting-Core-1.0-SNAPSHOT
-- 更新插件（4各）：Citizens-2.0.35-b3445、CMI-9.7.4.1、CMILib1.5.0.2、mcMMO-2.2.013
+- 更新插件（4个）：Citizens-2.0.35-b3445、CMI-9.7.4.1、CMILib1.5.0.2、mcMMO-2.2.013
 
 ### v0.2.3 2024-6-23
 - 向玩家开放CMI玩家传送功能权限 /tpa 对方玩家名 /tpaccept 接受对方传送请求（不需要输入指令，有提示）
