@@ -1,5 +1,10 @@
 ## 将庭服 Java版服务器更新日志
 
+### v0.4.2 2024-7-8
+- 重写mcmmoGUI整合进DeluxeMenus，替换mcMmoView插件
+- 优化LiteSignIn菜单
+- 删除插件（1个）：mcMmoView-1.0.9
+
 ### v0.4.1 2024-7-6
 - 更新Minecraft版本至purpur-1.21-2256
 - 排除LiteSignIn报毒原因，暂时纳入物理机白名单观察
