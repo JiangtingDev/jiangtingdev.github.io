@@ -5,7 +5,7 @@
 - 添加商店UltimateShop（免费版）并接入主菜单
 - 完成商店汉化和预制菜单初步设置
 - 添加插件（1个）：UltimateShop-2.4.4
-- 更新插件（5个）：Citizens-2.0.35-b3481、CMILib1.5.0.9、LuckPerms-Bukkit-5.4.137、Residence5.1.5.2、spark-1.10.81-bukkit
+- 更新插件（6个）：Citizens-2.0.35-b3481、CMI-9.7.4.7、CMILib1.5.0.9、LuckPerms-Bukkit-5.4.137、Residence5.1.5.2、spark-1.10.81-bukkit
 - 向管理开放cmi所有权限节点
 - 向玩家开放cmi传送回死亡点权限 /dback 同时禁用原来的/back
 - 向玩家开放cmi骑乘生物权限 /ride 可以骑乘任意生物
