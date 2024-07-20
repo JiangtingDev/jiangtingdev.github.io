@@ -1,5 +1,8 @@
 ## 将庭服 Java版服务器更新日志
 
+### v0.4.3 2024-7-16
+- 更新插件（4个）：CMI-9.7.4.5、CMILib1.5.0.7、mcMMO-2.2.017、Residence5.1.5.1
+
 ### v0.4.2 2024-7-8
 - 重写mcmmoGUI整合进DeluxeMenus，替换mcMmoView插件
 - 优化LiteSignIn菜单
