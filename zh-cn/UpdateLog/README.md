@@ -1,5 +1,23 @@
 ## 将庭服 Java版服务器更新日志
 
+### v0.5.0 2024-7-20
+- 更新Minecraft版本至purpur-1.21-2270
+- 添加商店UltimateShop（免费版）并接入主菜单
+- 完成商店汉化和预制菜单初步设置
+- 添加插件（1个）：UltimateShop-2.4.4
+- 更新插件（5个）：Citizens-2.0.35-b3481、CMILib1.5.0.9、LuckPerms-Bukkit-5.4.137、Residence5.1.5.2、spark-1.10.81-bukkit
+- 向管理开放cmi所有权限节点
+- 向玩家开放cmi传送回死亡点权限 /dback 同时禁用原来的/back
+- 向玩家开放cmi骑乘生物权限 /ride 可以骑乘任意生物
+- 向玩家开放cmi骑乘下马权限 /shakeitoff 抖落你身上的玩家
+- 向玩家开放cmi将物品戴在头上权限 /hat 可以将任意物品戴头上
+- 向玩家开放cmi获取玩家头颅权限 /head 可以获取任意玩家的头
+- 向玩家开放cmi坐下权限 /sit 可以在当前位置坐下
+- 向玩家开放cmi查看余额权限 /balance 查看余额
+- 向玩家开放cmi查看财富榜权限 /baltop 查看全服余额排行榜
+- 向玩家开放cmi查看游玩时间权限 /playtime 查看自己在线时间
+- 向玩家开放cmi查看游玩时间排行榜权限 /playtimetop 查看全服在线时长排名
+
 ### v0.4.3 2024-7-16
 - 更新插件（4个）：CMI-9.7.4.5、CMILib1.5.0.7、mcMMO-2.2.017、Residence5.1.5.1
 
