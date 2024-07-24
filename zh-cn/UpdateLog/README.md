@@ -1,5 +1,8 @@
 ## 将庭服 Java版服务器更新日志
 
+### v0.5.2 2024-7-23
+- 向玩家开放spark所有权限节点 /spark tps /spark mspt
+
 ### v0.5.1 2024-7-21
 - 修改UltimateShop自动保存数据为1小时1次
 - 更新插件（1个）：UltimateShop-2.5.0
