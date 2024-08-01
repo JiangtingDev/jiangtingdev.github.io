@@ -1,5 +1,9 @@
 ## 将庭服 Java版服务器更新日志
 
+### v0.6 2024-8-1
+- 更新Minecraft版本至purpur-1.21-2279
+- 更新插件（8个）：Citizens-2.0.35-b3489、CMI-9.7.4.9、CMILib1.5.1.0、LiteSignIn-1.8.2.0、mcMMO-2.2.018、Residence5.1.5.3、UltimateShop-2.5.3、spark-1.10.93-bukkit
+
 ### v0.5.2 2024-7-23
 - 向玩家开放spark所有权限节点 /spark tps /spark mspt
 
