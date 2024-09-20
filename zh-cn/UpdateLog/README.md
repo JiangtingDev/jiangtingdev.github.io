@@ -1,4 +1,4 @@
-## 将庭服 Java版服务器更新日志
+## 将庭服 Java 版服务器更新日志
 
 ### v0.7.1 2024-9-20
 - 添加插件（3个）：PlaceholderAPI-2.11.6、DecentHolograms-2.8.11、ajLeaderboards-2.9.0
