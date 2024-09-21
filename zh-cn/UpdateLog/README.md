@@ -1,5 +1,9 @@
 ## 将庭服 Java 版服务器更新日志
 
+### v0.7.2 2024-9-21
+- 添加插件（6个）：Citizens-2.0.35-b3566、DeluxeMenus-1.14.1-DEV-184、HuskHomes-Paper-4.7、LiteSignIn-1.8.2.0、minimotd-bukkit-bungeecord-2.1.3、TAB v4.1.8
+- 完成测试 DecentHolograms-2.8.11、ajLeaderboards-2.9.0、Citizens-2.0.35-b3566、DeluxeMenus-1.14.1-DEV-184、HuskHomes-Paper-4.7、LiteSignIn-1.8.2.0、minimotd-bukkit-bungeecord-2.1.3、TAB v4.1.8 插件
+
 ### v0.7.1 2024-9-20
 - 添加插件（3个）：PlaceholderAPI-2.11.6、DecentHolograms-2.8.11、ajLeaderboards-2.9.0
 - 完成测试 multiverse 插件，开始测试 DecentHolograms-2.8.11，ajLeaderboards-2.9.0 插件
