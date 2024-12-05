@@ -15,7 +15,7 @@ function timeoutFetch(timeOut = 1000) {
 }
 
 function fetchData() {
-    timeoutFetch(5000)("https://api.jiangting.top/status/all/")
+    timeoutFetch(5000)("https://api.jtmc.cc/status/all/")
         .then(response => response.json())
         .then(data => {update(data.je, "je"); update(data.be, "be");})
         .catch(error => {update(false, "je"); update(false, "be");});
