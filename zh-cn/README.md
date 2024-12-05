@@ -22,5 +22,5 @@ QQ号：3474983762
 公众号：JTSSD2019  
 简介：将庭服微信公众号\~<br/>  
 平台3：官网  
-链接：<https://www.jiangting.top>  
+链接：<https://www.jtmc.cc>  
 简介：将庭服官网\~<br/>
