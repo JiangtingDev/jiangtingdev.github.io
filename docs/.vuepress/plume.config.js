@@ -6,12 +6,12 @@ import { notes } from './notes'
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: 'https://github.com/jiangtingdev.png',
+  logo: 'https://theme-plume.vuejs.press/plume.png',
 
   appearance: true,
 
   profile: {
-    avatar: 'https://github.com/jiangtingdev.png',
+    avatar: 'https://theme-plume.vuejs.press/plume.png',
     name: '将庭服服务台',
     description: '',
     // circle: true,
