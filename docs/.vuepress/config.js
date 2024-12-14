@@ -7,6 +7,9 @@ export default defineUserConfig({
   lang: 'zh-CN',
   title: '将庭服服务台',
   description: '',
+  head: [
+    ['link', { rel: 'icon', href: '/images/favicon.ico' }]
+  ],
 
   bundler: viteBundler(),
 
