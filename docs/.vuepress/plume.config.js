@@ -22,7 +22,7 @@ export default defineThemeConfig({
   navbar,
   notes,
   social: [
-    { icon: 'github', link: 'https://github.com/JiangtingDev/jiangtingdev.github.io' },
+    { icon: 'qq', link: 'https://qm.qq.com/cgi-bin/qm/qr?k=Vf7x-jsnWoRPs6yjgDLnr_Gq36Zy6Acj&jump_from=webapi&authKey=mGu7v2dyhqSUf31/2DPzNliwCvI6KMEopUA1ok0h9799g9ydoz1HqPFbaKtV3E7x' },
   ],
-
+  navbarSocialInclude: ['qq'],
 })

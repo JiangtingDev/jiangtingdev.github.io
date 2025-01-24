@@ -21,7 +21,7 @@ export default defineUserConfig({
     // your git repo url
     docsRepo: '',
     docsDir: 'docs',
-    footer: { message: "版权所有 © 2019-2024 将庭服服务台"},
+    footer: { message: "版权所有 © 2019-2025 将庭服服务台"},
 
     plugins: {
       /**
