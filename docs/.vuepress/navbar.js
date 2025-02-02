@@ -23,19 +23,6 @@ export const navbar = defineNavbarConfig([
     ]
   },
   { text: '联系我们', icon: 'line-md:phone-call-twotone-loop', link: '/notes/联系我们.md' },
-  { text: '友情外链', 
-    icon: 'line-md:person-add-twotone', 
-    items: [
-      { text: 'Minecraft', link: 'https://www.minecraft.net/zh-hans' },
-      { text: 'Minecraft Wiki', link: 'https://zh.minecraft.wiki/' },
-      { text: 'PaperMC', link: 'https://papermc.io/' },
-      { text: 'PurpurMC', link: 'https://purpurmc.org/' },
-      { text: 'Velocity', link: 'https://papermc.io/software/velocity' },
-      { text: 'SpigotMC', link: 'https://www.spigotmc.org/' },
-      { text: 'MineBBS', link: 'https://www.minebbs.com/' },
-      { text: 'Vuepress', link: 'https://vuepress.vuejs.org/' },
-      { text: 'Plume Theme', link: 'https://theme-plume.vuejs.press/' },
-    ]
-  },
+  { text: '友情外链', icon: 'line-md:person-add-twotone', link: '/notes/友情外链.md' },
   { text: '更新日志', icon: 'line-md:coffee-twotone-loop', link: '/notes/更新日志.md' }
 ])
