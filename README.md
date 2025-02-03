@@ -1,42 +1,9 @@
-# 将庭服服务台
-
-The Site is generated using [vuepress](https://vuepress.vuejs.org/) and [vuepress-theme-plume](https://github.com/pengzhanbo/vuepress-theme-plume)
-
-## Install
-
-```sh
-pnpm i
-```
-
-## Usage
-
-```sh
-# start dev server
-pnpm docs:dev
-# build for production
-pnpm docs:build
-# preview production build in local
-pnpm docs:preview
-# update vuepress and theme
-pnpm vp-update
-```
-
-## Deploy to GitHub Pages
-
-The plume theme has been created with GitHub Actions: `.github/workflows/docs-deploy.yml`. You also need to make the following settings in the GitHub repository:
-
-- [ ] `settings > Actions > General`, Scroll to the bottom of the page, under `Workflow permissions`, check `Read and write permissions`, and click the save button.
-
-- [ ] `settings > Pages`, In `Build and deployment`, select `Deploy from a branch` for `Source`, choose `gh-pages` for `Branch`, and click the save button.
-  (The `gh-pages` branch may not exist upon first creation. You can complete the above setup first, push the code to the main branch, wait for `github actions` to finish, and then proceed with the setup.)
-
-- [ ] Modify the `base` option in `docs/.vuepress/config.ts`:
-  - If you are planning to deploy to `https://<USERNAME>.github.io/`, you can skip this step as `base` defaults to `"/"`.
-  - If you are planning to deploy to `https://<USERNAME>.github.io/<REPO>/`, meaning your repository URL is `https://github.com/<USERNAME>/<REPO>`, set `base` to `"/<REPO>/"`.
-
-To customize a domain name, please refer to [Github Pages](https://docs.github.com/zh/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages)
-
-## Documents
-
-- [vuepress](https://vuepress.vuejs.org/)
-- [vuepress-theme-plume](https://theme-plume.vuejs.press/)
+<h1 align="center"> 将庭服服务台 </h1>
+<p align="center">
+  <img src="https://github.com/jiangtingdev.png" width="200px" alt="avatar">
+</p>
+<p align="center">
+  由 <a href="https://vuepress.vuejs.org/"><img alt="Static Badge" src="https://img.shields.io/badge/VuePress-2.0.0--rc.19-3eaf7c"></a>
+  和 <a href="https://theme-plume.vuejs.press/"><img alt="Static Badge" src="https://img.shields.io/badge/vuepress--theme--plume-1.0.0--rc.129-5086a1"></a>
+  驱动
+</p>
